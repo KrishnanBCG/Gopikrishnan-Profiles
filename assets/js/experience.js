@@ -8,14 +8,16 @@ const exp = [
     title: "Software Trainee",
     cardImage: "assets/images/experience-page/Ezovion.jpg",
     place: "Seppam Semantics Private Limited",
-    time: "( August 2023 - August 2024 )",
+    time: "August 2023 - August 2024 ",
+    link:"assets/docs/Gopi Krishnan B.jpg",
     desp: "<li>Served as a Software Trainee at Seppam Semantics Private Limited .</li> <li>Worked extensively with Angular frontend development .</li> <li>Hands-on experience in APK generation using Angular Project .</li><li>Proficient in API integration, ensuring seamless data flow</li> <li>Proficient with MySQL for efficient data handling</li> <li>Deliver scalable back-end systems with Node.js</li>",
   },
   {
     title: "Front-End Developer",
     cardImage: "assets/images/experience-page/Ezovion.png",
     place: "Ezovion Solutions Pvt Ltd",
-    time: "(Mar - Aug, 2019)",
+    time: "November 2024 - Present ",
+    link:"",
     desp: "<li>Served as a Front-End Developer at Ezovion Solutions Pvt Ltd .</li>",
   }
 ];
@@ -23,11 +25,13 @@ const exp = [
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, cardImage, place, time, desp }) =>
+    ({ title, cardImage, place, time, desp , link }) =>
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
-        <img src="${cardImage}" class="featured-image open-modal" for="modal-trigger"/>
+      <a href="${link}" target="_blank">
+              <img src="${cardImage}" class="featured-image open-modal" for="modal-trigger"/>
+      </a>
         <article class="card-body">
           <header>
             <div class="title">
