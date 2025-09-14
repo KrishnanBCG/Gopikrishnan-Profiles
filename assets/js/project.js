@@ -13,14 +13,14 @@ const projects = [
     Previewlink: "https://poultryapplication.netlify.app",
     Githublink: "https://github.com/KrishnanBCG/PoultryFarmFrontEnd",
   },
-  // {
-  //   title: "Chess Engine",
-  //   cardImage: "assets/images/project-page/chess.jpg",
-  //   description: "A chess engine for a popular game dev engine.",
-  //   tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "Textile Manufacturing Entry",
+    cardImage: "assets/images/textile.jpeg",
+    description: "Application Textile Manufacturing Entry",
+    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+    Previewlink: "https://textiles-p01.netlify.app/#/",
+    Githublink: "git@github.com:KrishnanBCG/Textiles-FrontEnd.git",
+  },
   // {
   //   title: "Flappy Bird",
   //   cardImage: "assets/images/project-page/flappybird.png",
